@@ -2,6 +2,7 @@ class HomeController < ApplicationController
   protect_from_forgery
 
   def index
+    @url = request.original_url
   end
 
   def event
