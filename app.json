@@ -3,8 +3,6 @@
   "description": "A barebones Ruby on Rails app to enable realtime block chain updates via Chain.com Webhooks",
   "repository": "https://github.com/chain-engineering/webhooks-server-example",
   "logo": "https://node-js-sample.herokuapp.com/node.svg",
-  "keywords": ["blockchain", "chain.com", "bitcoin"]
-  "addons": [
-     "eshq"
-   ]
+  "keywords": ["blockchain", "chain.com", "bitcoin"],
+  "addons": ["eshq"]
 }
