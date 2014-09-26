@@ -1,0 +1,15 @@
+var eshq = new ESHQ("webhooks");
+
+eshq.onopen = function(e) {
+    // callback called when the connection is made
+};
+
+eshq.onmessage = function(e) {
+    // callback called when a new message has been received
+	console.log("Message type: %s, message data: %s", e.type, e.data);
+	$('.last_event').html(e.data);
+};
+
+eshq.onerror = function(e) {
+   // callback called on error
+};
