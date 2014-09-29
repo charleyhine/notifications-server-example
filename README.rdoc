@@ -1,3 +1,7 @@
 == Chain.com - Webhooks Server Example
 
 http://webhooks-server-example.herokuapp.com
+
+<a href="https://heroku.com/deploy?template=https://github.com/chain-engineering/webhooks-server-example/tree/master">
+  <img src="https://www.herokucdn.com/deploy/button.png" alt="Deploy">
+</a>
