@@ -5,19 +5,18 @@ class HomeController < ApplicationController
     @url = request.original_url
   end
 
-  def event
-    payload = JSON.parse(request.body.read)
+  def post
+    body = request.raw_post.to_json
     ESHQ.send(
       channel: 'webhooks',
-      data: payload,
-      type: 'message'
+      data: body,
+      type: 'address-transaction'
     )
-
-      render nothing: true, status: 200
+    render nothing: true, status: 200
   end
 
   def eshq
-    socket = ESHQ.open(:channel => params[:channel])
+    socket = ESHQ.open(channel: params[:channel])
     render json: { socket: socket }
   end
 

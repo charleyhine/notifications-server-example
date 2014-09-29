@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   root 'home#index'
-  post 'event' => 'home#event'
+  post '/' => 'home#post'
 
   post '/eshq/socket' => 'home#eshq'
 end
