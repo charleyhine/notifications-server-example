@@ -1,6 +1,6 @@
 {
   "name": "Chain Webhooks Server Example",
-  "description": "A barebones Ruby on Rails app to enable realtime block chain updates via Chain.com Webhooks",
+  "description": "A barebones Ruby on Rails app to enable real-time block chain activity updates via Chain.com Webhooks",
   "repository": "https://github.com/chain-engineering/webhooks-server-example",
   "logo": "http://webhooks-server-example.herokuapp.com/chain_logo.png",
   "keywords": ["blockchain", "chain.com", "bitcoin"],
