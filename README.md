@@ -1,6 +1,6 @@
-# Webhooks Server Example
+# Notifications Server Example
 
-A barebones Ruby on Rails app to enable real-time block chain activity updates via Chain.com Notifications: http://Notifications-server-example.herokuapp.com
+A barebones Ruby on Rails app to enable real-time block chain activity updates via Chain.com Notifications: http://notifications-server-example.herokuapp.com
 
 Deploy directly to Heroku:
 
