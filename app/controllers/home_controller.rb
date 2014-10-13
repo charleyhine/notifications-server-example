@@ -8,7 +8,7 @@ class HomeController < ApplicationController
   def post
     body = request.raw_post.to_json
     ESHQ.send(
-      channel: 'webhooks',
+      channel: 'notifications',
       data: body,
       type: 'address-transaction'
     )

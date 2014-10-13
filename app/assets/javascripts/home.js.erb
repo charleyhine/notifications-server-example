@@ -1,4 +1,4 @@
-var eshq = new ESHQ("webhooks");
+var eshq = new ESHQ("notifications");
 
 eshq.onopen = function(e) {
     // callback called when the connection is made
@@ -6,7 +6,7 @@ eshq.onopen = function(e) {
 
 eshq.onmessage = function(e) {
 	console.log("Message type: %s, message data: %s", e.type, e.data);
-	$('.notification').html(e.data);
+	$('#result').html(e.data);
 };
 
 eshq.onerror = function(e) {
