@@ -1,8 +1,7 @@
 {
-  "name": "Chain Notifications Server",
+  "name": "Notifications Server Example",
   "description": "A barebones Ruby on Rails app to enable real-time block chain activity updates via Chain.com Notifications",
   "repository": "https://github.com/chain-engineering/notifications-server-example",
-  "logo": "http://notifications-server-example.herokuapp.com/chain_logo.png",
   "keywords": ["blockchain", "chain.com", "bitcoin"],
   "addons": ["eshq"]
 }
