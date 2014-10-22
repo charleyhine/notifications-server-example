@@ -6,11 +6,12 @@ class HomeController < ApplicationController
   end
 
   def post
-    body = request.raw_post.to_json
+    ruby = JSON.parse(request.raw_post)
+    string = JSON.pretty_generate(ruby)
     ESHQ.send(
       channel: 'notifications',
-      data: body,
-      type: 'address-transaction'
+      data: url_encode(string),
+      type: 'address'
     )
     render nothing: true, status: 200
   end
