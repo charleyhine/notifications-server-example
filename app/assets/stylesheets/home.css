@@ -1,0 +1,57 @@
+/* @override 
+	http://localhost:3001/assets/home.css?body=1 */
+
+body, html {
+	padding: 0;
+	margin: 0;
+	font-family: Helvetica;
+}
+
+h1 {
+	font-size: 18px;
+	margin: 0 0 10px;
+}
+
+.btn {
+	display: inline-block;
+	background: #17bbcf;
+	border-radius: 3px;
+	padding: 10px;
+	text-decoration: none;
+	color: white;
+}
+
+.header {
+	text-align: center;
+	padding: 25px;
+}
+
+.result-container {
+	width: 100%;
+}
+
+
+.result {
+	padding: 20px;
+	wodth:100%;
+	overflow-x: scroll;
+	font-family: monospace;
+	background: #17bbcf;
+	white-space: pre;
+}
+
+
+.result:nth-of-type(n + 1) {
+	background: #207680;
+	color: white;
+}
+
+.result:nth-of-type(n+ 2) {
+	background: #1A4D69;
+	color: white;
+}
+
+.result:nth-of-type(n +3) {
+	background: #143B52;
+	color: white;
+}
