@@ -1,5 +1,5 @@
 {
-  "name": "Notifications Server Example",
+  "name": "Chain Notifications Server",
   "description": "A barebones Ruby on Rails app to enable real-time block chain activity updates via Chain.com Notifications",
   "repository": "https://github.com/chain-engineering/notifications-server-example",
   "logo": "http://notifications-server-example.herokuapp.com/chain_logo.png",
